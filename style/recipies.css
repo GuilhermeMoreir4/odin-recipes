@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Outfit:wght@100..900&family=Special+Gothic+Condensed+One&family=Special+Gothic+Expanded+One&family=Tiro+Bangla:ital@0;1&family=UnifrakturMaguntia&display=swap');
+
+h1, h2{
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p,a{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;  
+    font-size: 20px;
+}
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    align-items: center;
+}
+
+.content{
+    max-width: 500px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.recipie-card{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: white;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+
+.image{
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.return-link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background-color: rgb(115, 115, 115);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+}
+
+.return{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
