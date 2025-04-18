@@ -48,6 +48,7 @@ header{
 .image{
     border-radius: 5px;
     box-shadow: 5px 5px 10px black;
+    width: 500px;
 }
 
 .return-link{
@@ -64,4 +65,101 @@ header{
     display: flex;
     padding: 20px;
     justify-content: center;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    .content{
+        max-width: 450px;
+    }
+
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+
+
+    .recipie-card {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .content {
+        max-width: 450px;
+    }
+
+    p, a {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .return-link {
+        font-size: 17px;
+        padding: 16px;
+    }
+    .image{
+        width: 450px;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) { 
+    .recipie-card {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 15px;
+    }
+
+    .content {
+        max-width: 90%;
+    }
+
+    p, a {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .return-link {
+        font-size: 16px;
+        padding: 14px;
+    }
+    .image{
+        width: 450px;
+    }
+}
+
+@media all and (max-width: 480px) { 
+    h1, h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .recipie-card {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+        max-width: 90%;
+    }
+
+    .content {
+        max-width: 95%;
+    }
+
+    p, a {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .return-link {
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    .return {
+        padding: 15px;
+    }
+    .image{
+        width: 350px;
+    }
 }
